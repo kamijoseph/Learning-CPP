@@ -22,3 +22,8 @@ std::string name = "Kami"
 ```
 ## const keyword
 - specifies that a variables value is constant. tells the compiler to prevent anything from modifying it.
+
+## namespaces
+- provides a solution for preventing name conflicts in large projects
+- each entity needs a unique name. it allows for identically named entities as long as the namespaces are different.
+- check variable/namespace.cpp code
