@@ -27,3 +27,9 @@ std::string name = "Kami"
 - provides a solution for preventing name conflicts in large projects
 - each entity needs a unique name. it allows for identically named entities as long as the namespaces are different.
 - check variable/namespace.cpp code
+
+## typedef
+- reserved keyword used to create an additional name (alias) for another data type
+- its a new identifier fior an existing type. helps with readabi;ity and reduces typos
+- check data_types/typedef.cpp
+- typedef has largely been replaced by using because using works better with templates
