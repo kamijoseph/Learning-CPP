@@ -20,3 +20,5 @@
 ```C++
 std::string name = "Kami"
 ```
+## const keyword
+- specifies that a variables value is constant. tells the compiler to prevent anything from modifying it.
