@@ -11,7 +11,7 @@ bool isDivisibleBy(int num, int divisor) {
 int main() {
 
     int num;
-    std::cout << "input a number:";
+    std::cout << "input a number: ";
     std::cin >> num;
 
     if (!std::cin) {
