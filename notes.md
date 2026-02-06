@@ -33,3 +33,6 @@ std::string name = "Kami"
 - its a new identifier fior an existing type. helps with readabi;ity and reduces typos
 - check data_types/typedef.cpp
 - typedef has largely been replaced by using because using works better with templates
+
+## arithmetic oeperators
+- return the result of a specific arithmetic operations
