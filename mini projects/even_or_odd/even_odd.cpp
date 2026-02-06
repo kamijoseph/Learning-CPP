@@ -2,20 +2,27 @@
 // check number if even or odd
 
 #include <iostream>
-using namespace std;
+
+bool isEven(int num) {
+    return num % 2 == 0;
+}
 
 int main() {
-    int num1, num2;
+    int num;
 
-    // first number
-    cout << "Enter first number: ";
-    cin >> num1;
+    std::cout << "Enter your number: ";
+    std::cin >> num;
 
-    // second number
-    cout << "Enter the second number: ";
-    cin >> num2;
+    if (!std::cin) {
+        std::cout << "Invalid Entry! Please enter an integer.\n";
+        return 1;
+    }
 
-
+    if (isEven(num)) {
+        std::cout << "Your number " << num << " is even.\n";
+    } else {
+        std::cout << "Your number " << num << " is odd.\n";
+    }
 
     return 0;
 }
