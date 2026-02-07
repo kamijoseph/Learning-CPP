@@ -37,6 +37,8 @@ int main() {
         } else {
             std::cout << "results: " << num1 / num2 << "\n";
         }
+    } else {
+        std::cout << "invalid operator\n";
     }
 
     return 0;
