@@ -19,5 +19,25 @@ int main() {
     std::cout << "Enter the second number: ";
     std::cin >> num2;
 
+    // checking validity
+    if (!std::cin) {
+        std::cout << "Invalid Entry";
+        return 1;
+    }
+
+    if (oper == '+') {
+        std::cout << "results: " << num1 + num2 << "\n";
+    } else if (oper == '-') {
+        std::cout << "results: " << num1 - num2 << "\n";
+    } else if (oper == '*') {
+        std::cout << "results: " << num1 * num2 << "\n";
+    } else if (oper == '/') {
+        if (num2 == 0) {
+            std::cout << "division by zero error\n";
+        } else {
+            std::cout << "results: " << num1 / num2 << "\n";
+        }
+    }
+
     return 0;
 }
