@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main() {
-    int num1, num2;
+    double num1, num2;
     char oper;
 
     // first number
