@@ -12,8 +12,8 @@ int main(){
     std::cout << "enter the height of the triangle: ";
     std::cin >> b;
 
-    c = sqrt(pow(a, 2) + pow(a, 2));
-    std::cout << "the power of a triangle with height " << b << " and length " << a << " is " << c << "\n";
+    c = sqrt(pow(a, 2) + pow(b, 2));
+    std::cout << "the hypotenuse of a triangle with length " << a << " and height " << b << " is " << c << "\n";
 
 
     return 0;
