@@ -41,3 +41,5 @@ std::string name = "Kami"
 - converting a value of one datatype to a different datatype
    -implicit - automatic
    explici - precede a value with a new data type (int)
+
+## 8 useful math functions
