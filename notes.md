@@ -42,4 +42,6 @@ std::string name = "Kami"
    -implicit - automatic
    explici - precede a value with a new data type (int)
 
-## 8 useful math functions
+## conditionals (if else statements)
+- do something if a conditional is true
+- if not then dont do it
