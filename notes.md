@@ -35,4 +35,9 @@ std::string name = "Kami"
 - typedef has largely been replaced by using because using works better with templates
 
 ## arithmetic oeperators
-- return the result of a specific arithmetic operations
+- return the result of a specific arithmetic operations (+, -, *, /, %)
+
+## type conversion
+- converting a value of one datatype to a different datatype
+   -implicit - automatic
+   explici - precede a value with a new data type (int)
