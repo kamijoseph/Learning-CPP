@@ -2,11 +2,18 @@
 #include <iostream>
 
 int main(){
-    std::string name;
-    std::cout << "what is your name?: ";
-    std::cin >> name;
 
-    std::cout << "hello " << name << "\n";
+    // // unspaced input (string)
+    // std::string name;
+    // std::cout << "what is your name?: ";
+    // std::cin >> name;
+
+    // using getline(cin, var) function for spaced strings
+    std::string full_name;
+    std::cout << "what is your full name: ";
+    std::getline(std::cin, full_name);
+
+    std::cout << "hello " << full_name << "\n";
 
     return 0;
 }
