@@ -50,3 +50,8 @@ std::string name = "Kami"
 ## ternary operator (?)
 - replacement to an if/else statement
 - condition ? expression1 : expression2
+
+## logical operators
+- && - check if two conditions are true
+- || - check if atleast one of the two conditions is true
+- ! - reverses the logical state and its operand
