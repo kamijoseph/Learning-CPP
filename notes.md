@@ -46,3 +46,7 @@ std::string name = "Kami"
 - do something if a conditional is true
 - if not then dont do it
 - switch - alternative to using many "else if" statements. compares one value against matching cases
+
+## ternary operator (?)
+- replacement to an if/else statement
+- condition ? expression1 : expression2
