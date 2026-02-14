@@ -45,3 +45,4 @@ std::string name = "Kami"
 ## conditionals (if else statements)
 - do something if a conditional is true
 - if not then dont do it
+- switch - alternative to using many "else if" statements. compares one value against matching cases
