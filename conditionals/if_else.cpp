@@ -2,26 +2,26 @@
 #include <iostream>
 int main(){
 
-    // int age;
+    int age;
 
-    // std::cout << "enter your age: ";
-    // std::cin >> age;
+    std::cout << "enter your age: ";
+    std::cin >> age;
 
-    // if (age >= 18){
-    //     std::cout << "you are an adult\n";
-    // } else if (age < 0) {
-    //     std::cout << "you havent even been born yet pal\n";
-    // } else if (age == 0){
-    //     std::cout << "you were just born\n";
-    // } else if (age >= 100){
-    //     std::cout << "too old mate. rest now\n";
-    // } else {
-    //     std::cout << "you child champ. logout\n";
+    if (age >= 18){
+        std::cout << "you are an adult\n";
+    } else if (age < 0) {
+        std::cout << "you havent even been born yet pal\n";
+    } else if (age == 0){
+        std::cout << "you were just born\n";
+    } else if (age >= 100){
+        std::cout << "too old mate. rest now\n";
+    } else {
+        std::cout << "you child champ. logout\n";
     
-    // }
+    }
 
     // switch - alternativ to using many "else if" statements.
-    //        - compares one value against matching cases.
+    //    - compares one value against matching cases.
     
     int month;
     std::cout << "enter the month number (1-12): ";
@@ -67,6 +67,11 @@ int main(){
         default:
             std::cout << "please enter in only numbers (1-12)\n";
     }
+
+    // ternary operator (?) - replacements to an if/else statement
+    // condition ? expression1 : expression2;
+    int grade = 80;
+    grade >= 80 ? std::cout << "you pass!\n" : std::cout << "you fail!\n";
 
     return 0;
 }
