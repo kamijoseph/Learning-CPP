@@ -13,7 +13,11 @@ int main() {
     std::cout << "the length of your name is " << name.length() << " characters long.\n";
 
     // .empty() - returns a boolean value if a string is empty or populated
-    std::cout << "the string is empty: " << name.empty() <<"\n";
+    if (name.empty()) {
+        std::cout << "you didnt enter your name pal\n";
+    } else {
+        std::cout << "hello " << name << "\n";
+    }
 
     return 0;
 }
