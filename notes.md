@@ -61,3 +61,5 @@ std::string name = "Kami"
 - .empty() - returns a true/false boolean if a string is empty or populated
 - .clear() - clears a string
 - .append() - join a string to another
+- .at(idx) - returns a char at a given index
+- .insert(isx 'char')

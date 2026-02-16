@@ -4,7 +4,7 @@
 int main(){
 
     double temp;
-    std::string unit;
+    char unit;
 
     std::cout << "****** tmperature converter *****\n";
     std::cout << "F = fahrenheit\n";
@@ -12,14 +12,14 @@ int main(){
     std::cout << "what unit would you like to convert to: ";
     std::cin >> unit;
 
-    if (unit == "F" || unit == "f"){
+    if (unit == 'F' || unit == 'f'){
         std::cout << "enter the temperature in celcius: ";
         std::cin >> temp;
 
         temp = (1.8 * temp) + 32.0;
         std::cout << "temperature is: " << temp << " fahrenheit\n\n";
     }
-    else if (unit == "C" || unit == "c") {
+    else if (unit == 'C' || unit == 'c') {
         std::cout << "enter the temperature in fahrenheit: ";
         std::cin >> temp;
 
