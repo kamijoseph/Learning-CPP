@@ -5,6 +5,7 @@
 int main() {
 
     std::string name;
+    std::string email;
 
     std::cout << "enter your name: ";
     std::getline(std::cin, name);
@@ -18,6 +19,10 @@ int main() {
     } else {
         std::cout << "hello " << name << "\n";
     }
+
+    // .append() - joins a string to another one
+    email = name.append("@gmail.com");
+    std::cout << "your email is: " << name << "\n";
 
     return 0;
 }
