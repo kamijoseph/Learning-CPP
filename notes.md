@@ -57,4 +57,4 @@ std::string name = "Kami"
 - ! - reverses the logical state and its operand
 
 ## useful string methods
-- 
+- .length() - length of a string
