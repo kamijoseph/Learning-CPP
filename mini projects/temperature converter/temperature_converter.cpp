@@ -18,11 +18,19 @@ int main(){
 
         temp = (1.8 * temp) + 32.0;
         std::cout << "temperature is: " << temp << " fahrenheit\n\n";
-    } else {
-        std::cout << "error\n";
+    }
+    else if (unit == "C" || unit == "c") {
+        std::cout << "enter the temperature in fahrenheit: ";
+        std::cin >> temp;
+
+        temp = (temp - 32) / 1.8;
+        std::cout << "temperature is: " << temp << " celcius\n\n";
+    }
+    else {
+        std::cout << "please enter in only C or F\n";
     }
 
-    std::cout << "***************************************";
+    std::cout << "***************************************\n";
 
 
     return 0;
