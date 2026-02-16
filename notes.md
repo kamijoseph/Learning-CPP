@@ -58,3 +58,4 @@ std::string name = "Kami"
 
 ## useful string methods
 - .length() - length of a string
+- .empty() - returns a true/false boolean if a string is empty or populated
