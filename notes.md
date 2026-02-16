@@ -62,4 +62,6 @@ std::string name = "Kami"
 - .clear() - clears a string
 - .append() - join a string to another
 - .at(idx) - returns a char at a given index
-- .insert(isx 'char')
+- .insert(isx 'char') - insert a character at a defined position in a string
+- .find(char) - finds a specific character and returns its position in a string
+- .erase(start idx, end idx) - erase a potion of a string
