@@ -26,10 +26,12 @@ int main(){
             std::cout << "you are too low\n";
         }
         else{
-           std::cout << "correct\n";
+           std::cout << "correct! number of tries: " << tries << " \n";
         }
     }
     while(guess != num);
+
+    std::cout << "********************************************\n";
 
 
     return 0;
