@@ -1,11 +1,11 @@
 
 // nested loops - loops inside other loops
-// creating a rectangle of symbols
 
 #include <iostream>
 
 int main(){
 
+    // creating a rectangle of symbols
     int rows;
     int columns;
     char symbol;
