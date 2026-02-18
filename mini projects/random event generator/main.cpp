@@ -19,13 +19,13 @@ int main(){
             std::cout << "you won a ferrari\n";
             break;
         case 3:
-            std::cout << "you won a duccati superbike";
+            std::cout << "you won a duccati superbike\n";
             break;
         case 4:
-            std::cout << "you won a mopped";
+            std::cout << "you won a mopped\n";
             break;
         case 5:
-            std::cout << "you won a mountain bike";
+            std::cout << "you won a mountain bike\n";
             break;
     }
 
