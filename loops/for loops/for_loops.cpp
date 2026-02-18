@@ -4,7 +4,9 @@
 
 int main(){
 
-    std::cout << "this is a for loop\n";
+    for (int idx = 1; idx <= 3; idx++){
+        std::cout << "happy new year\n";
+    }
 
     return 0;
 }
