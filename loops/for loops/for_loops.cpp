@@ -11,7 +11,7 @@ int main(){
     std::cout << "happy new year\n\n";
 
     // descending order
-    for (int i = 10; i >= 0; i--){
+    for (int i = 10; i >= 0; i-=2){
         std::cout << i << "\n\n";
     }
     std::cout << "succesfully counted 10 descending\n";
