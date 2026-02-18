@@ -65,3 +65,7 @@ std::string name = "Kami"
 - .insert(isx 'char') - insert a character at a defined position in a string
 - .find(char) - finds a specific character and returns its position in a string
 - .erase(start idx, end idx) - erase a potion of a string
+
+## break and continue keywords in loops
+- break - breaks out of a loop (also used in a switch)
+- continue = skip current iteration
