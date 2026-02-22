@@ -96,10 +96,10 @@ include main(){
 - function can share the same name but different parameters/arguments
 - an overloaded function is the same function name havng different parameters. 
 - remark: for me coming from python this doesnt make sense why it even exists at all man
-
+               
 ## variables scope
 - local variables - declared inside a function or block {}
-- global variables - declared outside of all functions
+- global variables - declared outside of all functionsfun
 
 
 
