@@ -71,6 +71,8 @@ std::string name = "Kami"
 - continue = skip current iteration
 
 ## functions
+- a function is a block of reusable code
+-  
 
 
 
