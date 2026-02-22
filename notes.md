@@ -69,3 +69,27 @@ std::string name = "Kami"
 ## break and continue keywords in loops
 - break - breaks out of a loop (also used in a switch)
 - continue = skip current iteration
+
+## functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
