@@ -72,8 +72,22 @@ std::string name = "Kami"
 
 ## functions
 - a function is a block of reusable code
--  
 
+```c++
+#include <iostream>
+
+// making the function
+void theFunction(){
+   // content
+}
+
+include main(){
+   
+   theFunction();
+
+   return 0;
+}
+```
 
 
 
