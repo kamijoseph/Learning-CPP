@@ -1,22 +1,22 @@
 
 #include <iostream>
 
-// creating function
-void happyBirthday(){
-    std::cout << "happy birthday to you\n";
-    std::cout << "happy birthday to you\n";
-    std::cout << "happy birthday dear you\n";
-    std::cout << "happy birthday to you\n\n";
+// creating a happyBirthday function
+void happyBirthday(std::string name){
+    std::cout << "happy birthday to " << name << "\n";
+    std::cout << "happy birthday to " << name << "\n";
+    std::cout << "happy birthday dear " << name << "\n";
+    std::cout << "happy birthday to " << name << "\n";
 }
 
 int main(){
     
-    // calling a function
-    happyBirthday();
-    happyBirthday();
-    happyBirthday();
+    // calling the happy birthday function
+    std::string name;
+    std::cout << "enter your name: ";
+    std::cin >> name;
 
-
+    happyBirthday(name);
 
     return 0;
 }
