@@ -1,6 +1,7 @@
 
 // rock paper scissors game
 #include <iostream>
+#include <ctime>
 
 char getUserChoice();
 char getComputerChoice();
@@ -12,9 +13,15 @@ int main(){
     char player;
     char computer;
 
+    // playeer
     player = getUserChoice();
     std::cout << "you chose: ";
     showChoice(player);
+
+    // computer
+    computer = getComputerChoice();
+    std::cout << "computer chose: ";
+    showChoice(computer);
 
     return 0;
 }
@@ -41,7 +48,20 @@ char getUserChoice(){
 // get computers choice function
 char getComputerChoice(){
 
+    srand(time(0));
+    int num = rand() % 3 + 1;
+
+    switch(num){
+        case 1:
+            return 'r';
+        case 2:
+            return 'p';
+        case 3:
+            return 's';
+    }
+
     return 0;
+
 }
 
 // show choice function
