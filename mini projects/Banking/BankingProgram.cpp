@@ -45,6 +45,7 @@ int main(){
 
             default:
                 std::cout << "invalid choice\n";
+                break;
         }
     }while(choice != 4);
 
@@ -58,6 +59,14 @@ void showBalance(double balance){
 
 // deposit function
 double deposit(){
+    
+    // deposit input
+    double amount = 0;
+    std::cout << "enter the amount to be deposited: ";
+    std:: cin >> amount;
+    std::cout << "$" << amount << std::setprecision(2) << std::fixed << " deposit was succesful\n";
+    std::cout << "new balance:\n";
+
     return 0;
 }
 
