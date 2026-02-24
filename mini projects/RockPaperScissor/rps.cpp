@@ -23,6 +23,9 @@ int main(){
     std::cout << "computer chose: ";
     showChoice(computer);
 
+    // choose wimmer
+    chooseWinner(player, computer);
+
     return 0;
 }
 
@@ -84,5 +87,40 @@ void showChoice(char choice){
 // choose winner function
 void chooseWinner(char player, char computer){
 
+    switch(player){
+
+        // player rock
+        case 'r':
+            if (computer == 'r'){
+                std::cout << "its a tie!\n";
+            } else if (computer == 'p'){
+                std::cout << "you lose!\n";
+            } else {
+                std::cout << "you win!\n";
+            }
+            break;
+        
+        // player choses paper
+        case 'p':
+            if (computer == 'r'){
+                std::cout << "you win!\n";
+            } else if (computer == 'p'){
+                std::cout << "its a tie!\n";
+            } else {
+                std::cout << "You lose!\n";
+            }
+            break;
+        
+        // player choses scissors
+        case 's':
+            if (computer == 'r'){
+                std::cout << "you lose!\n";
+            } else if (computer == 'p'){
+                std::cout << "you win!\n";
+            } else {
+                std::cout << "its a tie!\n";
+            }
+            break;
+    }
 
 }
