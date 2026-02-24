@@ -38,6 +38,7 @@ int main(){
             
             case 3:
                 balance -= withdraw(balance);
+                showBalance(balance);
                 break;
 
             case 4:
@@ -81,5 +82,21 @@ double deposit(){
 // withdraw function
 double withdraw(double balance){
     
-    return 0;
+    double amount = 0;
+
+    std::cout << "enter amout to be withdrawn: ";
+    std::cin >> amount;
+
+    if (amount > balance){
+        std::cout << "insufficient funds.\n";
+        return 0;
+    }
+    else if (amount < 0){
+        std::cout << "not a valid amount\n";
+        return 0;
+    }
+    else{
+        std::cout << "$" << amount << std::setprecision(2) << std::fixed << " withdrawal was succesful\n";
+        return amount;
+    }
 }
