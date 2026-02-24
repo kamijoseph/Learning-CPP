@@ -25,6 +25,10 @@ int main(){
         std::cout << "3. withdraw money\n";
         std::cout << "4. exit\n";
         std::cin >> choice;
+
+        // checks for invalid user input and prevent program from crashing
+        std::cin.clear();
+        // fflush(stdin); this didnt work, research
         
         switch(choice){
             case 1:
@@ -100,3 +104,5 @@ double withdraw(double balance){
         return amount;
     }
 }
+
+// make better
