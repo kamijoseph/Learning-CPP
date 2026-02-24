@@ -9,7 +9,10 @@ void chooseWinner(char player, char computer);
 
 int main(){
 
-    
+    char player;
+    char computer;
+
+    player = getUserChoice();
 
     return 0;
 }
@@ -17,7 +20,17 @@ int main(){
 // get users choice function
 char getUserChoice(){
     
-    return 0;
+    char player;
+    std::cout << "rock paper scissors game!\n";
+    std::cout << "*************************\n";
+    std::cout << "'r' for rock\n";
+    std::cout << "'p' for paper\n";
+    std::cout << "'s' for scissors\n";
+    std::cin >> player;
+
+    
+
+    return player;
 }
 
 // get computers choice function
