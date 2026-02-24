@@ -13,6 +13,8 @@ int main(){
     char computer;
 
     player = getUserChoice();
+    std::cout << "you chose: ";
+    showChoice(player);
 
     return 0;
 }
@@ -45,6 +47,17 @@ char getComputerChoice(){
 // show choice function
 void showChoice(char choice){
 
+    switch(choice){
+        case 'r':
+            std::cout << "rock\n";
+            break;
+        case 'p':
+            std::cout << "paper\n";
+            break;
+        case 's':
+            std::cout << "scissors\n";
+            break;
+    }
     
 }
 
