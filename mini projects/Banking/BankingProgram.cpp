@@ -2,6 +2,7 @@
 // simple banking program
 
 #include <iostream>
+#include <iomanip>
 
 double deposit();
 double withdraw(double balance);
@@ -9,7 +10,7 @@ void showBalance(double balance);
 
 int main(){
 
-    double balance = 0;
+    double balance = 1220;
     int choice = 0;
 
     
@@ -52,15 +53,15 @@ int main(){
 
 // show balance function
 void showBalance(double balance){
-
+    std::cout << "the balance is: $" << std::setprecision(2) << std::fixed << balance << "\n";
 }
 
 // deposit function
 double deposit(){
-
+    return 0;
 }
 
 // withdraw function
 double withdraw(double balance){
-    
+    return 0;
 }
