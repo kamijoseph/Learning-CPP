@@ -51,7 +51,7 @@ char getUserChoice(){
 // get computers choice function
 char getComputerChoice(){
 
-    srand(time(0));
+    srand(time(NULL));
     int num = rand() % 3 + 1;
 
     switch(num){
