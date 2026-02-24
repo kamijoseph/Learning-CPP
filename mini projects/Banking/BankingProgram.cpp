@@ -65,12 +65,21 @@ double deposit(){
     double amount = 0;
     std::cout << "enter the amount to be deposited: ";
     std:: cin >> amount;
-    std::cout << "$" << amount << std::setprecision(2) << std::fixed << " deposit was succesful\n";
 
-    return amount;
+    // amount validity
+    if (amount > 0){
+        std::cout << "$" << amount << std::setprecision(2) << std::fixed << " deposit was succesful\n";
+
+        return amount;
+    }
+    else{
+        std::cout << "amount must be above zero\n";
+        return 0;
+    }
 }
 
 // withdraw function
 double withdraw(double balance){
+    
     return 0;
 }
