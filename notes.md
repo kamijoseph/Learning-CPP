@@ -99,7 +99,7 @@ include main(){
                
 ## variables scope
 - local variables - declared inside a function or block {}
-- global variables - declared outside of all functionsfun
+- global variables - declared outside of all functions
 
 
 
