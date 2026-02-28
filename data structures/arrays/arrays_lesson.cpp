@@ -5,7 +5,12 @@
 #include <iostream>
 int main(){
 
-    std::cout << "hooray this is arrays data structure.\n";
+    // standard array
+    std::string car[] = {
+        "corvette", "porsche", "jeep", "mustang"
+    };
+
+    std::cout << car[0];
 
     return 0;
 }
