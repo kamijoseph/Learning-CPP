@@ -104,6 +104,8 @@ include main(){
 ## arrays
 - a data structure that can hold multiple values
 - values are accessed by an index number: start at index 0
+- items of an00000 array should always be of the same data types
+- you can declare an array without assigning a value yet but you must declare how many values shuld it have
 
 
 
