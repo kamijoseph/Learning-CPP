@@ -107,6 +107,9 @@ include main(){
 - items of an00000 array should always be of the same data types
 - you can declare an array without assigning a value yet but you must declare how many values shuld it have
 
+## sizeof() operator
+- determines the size in bytes of a variable, data type, class, objects, etc ...
+- double is assigned a max of 8 bytes, a string is 32 bytes( because it holds an adress), char is 1 byte, boolean 1 byte
 
 
 
