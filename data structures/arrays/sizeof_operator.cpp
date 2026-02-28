@@ -4,7 +4,28 @@
 #include <iostream>
 int main(){
 
-    std::cout << "sizeo() operator";
+    std::string name = "kami joseph";
+    double gpa = 3.5;
+    char grade = 'A';
+    bool student = true;
+    char grades[] = {
+        'A', 'B', 'C', 'D', 'F'
+    };
+
+    // prints the size of a string (which a sring adress) in bytes ofc
+    std::cout << "name string byte size" << sizeof(name) << " bytes\n";
+
+    // byte size of thge gpa/ souble
+    std::cout << "gpa double byte size: " << sizeof(gpa) << " bytes\n";
+
+    // byte size of a char
+    std::cout << "grade char byte size: " << sizeof(grade) << " bytes\n";
+
+    // byte size of boolean
+    std::cout << "student boolean byte size: " << sizeof(student) << " bytes\n";
+
+    // prints the size of the grades array in bytes
+    std::cout << "grades char array byte size" << sizeof(grades) << " bytes\n";
 
     return 0;
 }
