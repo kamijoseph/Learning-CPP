@@ -13,7 +13,7 @@ int main(){
     };
 
     // prints the size of a string (which a sring adress) in bytes ofc
-    std::cout << "name string byte size" << sizeof(name) << " bytes\n";
+    std::cout << "\nname string byte size: " << sizeof(name) << " bytes\n";
 
     // byte size of thge gpa/ souble
     std::cout << "gpa double byte size: " << sizeof(gpa) << " bytes\n";
@@ -25,7 +25,7 @@ int main(){
     std::cout << "student boolean byte size: " << sizeof(student) << " bytes\n";
 
     // prints the size of the grades array in bytes
-    std::cout << "grades char array byte size" << sizeof(grades) << " bytes\n";
+    std::cout << "grades char array byte size: " << sizeof(grades) << " bytes\n\n";
 
     return 0;
 }
