@@ -101,7 +101,9 @@ include main(){
 - local variables - declared inside a function or block {}
 - global variables - declared outside of all functions
 
-##
+## arrays
+- a data structure that can hold multiple values
+- values are accessed by an index number: start at index 0
 
 
 
