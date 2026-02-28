@@ -111,20 +111,8 @@ include main(){
 - determines the size in bytes of a variable, data type, class, objects, etc ...
 - double is assigned a max of 8 bytes, a string is 32 bytes( because it holds an adress), char is 1 byte, boolean 1 byte
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## foreach loop
+- loop that eases the traversal over an iterable data set
 
 
 
