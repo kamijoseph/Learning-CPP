@@ -8,11 +8,13 @@ int main(){
     };
 
     std::string students[] = {
-        "Spongebob", "Patrick", "Squidward", "Sandy"
+        "Spongebob", "Patrick", "Squidward", "Sandy", "Plankton"
     };
 
     // iterating through the array
-    for (int idx = 0; idx < 4; idx++){
+    int studentLength = sizeof(students) / sizeof(std::string);
+
+    for (int idx = 0; idx < studentLength; idx++){
         std::cout << students[idx] << "\n";
     }
 
