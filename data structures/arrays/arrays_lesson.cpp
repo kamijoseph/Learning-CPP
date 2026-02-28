@@ -6,11 +6,13 @@
 int main(){
 
     // standard array
-    std::string car[] = {
+    std::string cars[] = {
         "corvette", "porsche", "jeep", "mustang"
     };
 
-    std::cout << car[0];
+    cars[0] = "camaro";
+
+    std::cout << cars[0];
 
     return 0;
 }
