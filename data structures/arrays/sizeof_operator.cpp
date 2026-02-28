@@ -25,7 +25,10 @@ int main(){
     std::cout << "student boolean byte size: " << sizeof(student) << " bytes\n";
 
     // prints the size of the grades array in bytes
-    std::cout << "grades char array byte size: " << sizeof(grades) << " bytes\n\n";
+    std::cout << "grades char array byte size: " << sizeof(grades) << " bytes\n";
+
+    // getting the actual size of the array
+    std::cout << "grades char array has "  << sizeof(grades) / sizeof(char) << "elements\n\n";
 
     return 0;
 }
