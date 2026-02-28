@@ -9,7 +9,10 @@ int main(){
     char grade = 'A';
     bool student = true;
     char grades[] = {
-        'A', 'B', 'C', 'D', 'F'
+        'A', 'B', 'C', 'D', 'E', 'F'
+    };
+    std::string students[] = {
+        "Spongebob", "Patrick", "Squidward"
     };
 
     // prints the size of a string (which a sring adress) in bytes ofc
@@ -28,7 +31,10 @@ int main(){
     std::cout << "grades char array byte size: " << sizeof(grades) << " bytes\n";
 
     // getting the actual size of the array
-    std::cout << "grades char array has "  << sizeof(grades) / sizeof(char) << " elements\n\n";
+    std::cout << "grades char array has "  << sizeof(grades) / sizeof(char) << " elements\n";
+
+    // getting the number of strings in the array of students strings
+    std::cout << "students string array has " << sizeof(students) / sizeof(std::string) << " elements\n\n";
 
     return 0;
 }
