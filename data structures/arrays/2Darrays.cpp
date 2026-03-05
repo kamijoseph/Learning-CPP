@@ -4,7 +4,16 @@
 
 int main(){
 
-    std::cout << "multi-dimensional arrays\n";
+    // two dimensional array
+    std::string cars[][3] = {{
+        "Mustang", "Escape", "F-150"
+    },
+    {
+        "Corvette", "Equinox", "Silverado"
+    },
+    {
+        "Challenger", "Charger", "Durango"
+    }};
 
     return 0;
 }
