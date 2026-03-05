@@ -30,9 +30,13 @@ int main(){
     int score;
 
     for(int i = 0; i < questionsSize; i++){
-        std::cout << "******************";
         std::cout << questions[i] << "\n";
-        std::cout << "******************";
+
+        for(int j = 0; j < sizeof(options[i]) / sizeof(options[i][0]); j++){
+            std::cout << options[i][j] << "\n";
+        }
+
+        std::cout << "*****************************\n\n";
     }
 
     return 0;
