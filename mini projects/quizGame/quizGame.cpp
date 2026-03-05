@@ -24,5 +24,16 @@ int main(){
         'C', 'B', 'A', 'B'
     };
 
+    
+    int questionsSize = sizeof(questions) / sizeof(questions[0]);
+    char guess;
+    int score;
+
+    for(int i = 0; i < questionsSize; i++){
+        std::cout << "******************";
+        std::cout << questions[i] << "\n";
+        std::cout << "******************";
+    }
+
     return 0;
 }
