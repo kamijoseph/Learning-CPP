@@ -115,6 +115,3 @@ include main(){
 - loop that eases the traversal over an iterable data set
 - less syntax but less flexible as it starts from the begining to the end
 - great if you are just listing elements in an array and nothing fancy
-
-
-
