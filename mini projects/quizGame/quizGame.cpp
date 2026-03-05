@@ -52,5 +52,13 @@ int main(){
         std::cout << "*****************************\n\n";
     }
 
+    std::cout << "********************************\n";
+    std::cout << "             RESULTS            \n";
+    std::cout << "********************************\n";
+    std::cout << "correct guesses: " << score << "\n";
+    std::cout << "number of questions: " << questionsSize << "\n";
+    std::cout << "score: " << ((double)score / (double)questionsSize) * 100 << "%\n";
+
+
     return 0;
 }
