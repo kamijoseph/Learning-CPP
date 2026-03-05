@@ -36,6 +36,19 @@ int main(){
             std::cout << options[i][j] << "\n";
         }
 
+        // accepting user input
+        std::cin >> guess;
+        guess = toupper(guess);
+        
+        if(guess == answerKey[i]){
+            std::cout << "correct!\n";
+            score++;
+        }
+        else{
+            std::cout << "wrong!\n";
+            std::cout << "answer is: " << answerKey[i] << "\n";
+        }
+
         std::cout << "*****************************\n\n";
     }
 
