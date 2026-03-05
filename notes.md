@@ -119,3 +119,17 @@ include main(){
 ## fill() function
 - fills a range of elements with a specified value
 - fill(begin, end, value)
+- example:
+
+```c++
+#include <iostream>
+int main(){
+
+   const int SIZE = 100;
+   std::string foods[SIZE];
+   fill(foods, foods + (SIZE / 2), "pizzas"); // fills half the array with pizzas
+   fill(foods + (SIZE / 2), foods + SIZE, "hamburgers"); // fills the last half with hamburgers
+
+   return 0;
+}
+```
