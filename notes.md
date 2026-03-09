@@ -149,3 +149,9 @@ int main(){
 - add all odd numbers fom right to left
 - sum results from step 2 and 3
 - if step 4 is divisible by 10, credit card number is totally valid.
+
+## pointers
+- a variable that stores a memory adress of another variable
+- sometimes its easier to work with an address
+- & adress-of operator
+* dereference operator
