@@ -137,3 +137,8 @@ int main(){
 ## memory adresses
 - memory adress is a location in memoery where data is stored
 - a memory adress can be accessed with & (adress-of operator)
+
+## const parameter
+- a parameter that is effectively read only
+- the code is more secure and conveys the intent
+- useful for references and pointers
