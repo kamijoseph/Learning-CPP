@@ -138,7 +138,14 @@ int main(){
 - memory adress is a location in memoery where data is stored
 - a memory adress can be accessed with & (adress-of operator)
 
-## const parameter
+## const parameter: in parameters
 - a parameter that is effectively read only
 - the code is more secure and conveys the intent
 - useful for references and pointers
+
+## steps of luhn algorithm (unrelated to c++ bu related to the credit card mini project):
+- double every second digit from right to left. if double number is 2 digits, split them
+- add all single digits from step 1.
+- add all odd numbers fom right to left
+- sum results from step 2 and 3
+- if step 4 is divisible by 10, credit card number is totally valid.
