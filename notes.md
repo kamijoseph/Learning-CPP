@@ -134,4 +134,6 @@ int main(){
 }
 ```
 
-# timestamp: 3:57:44
+## memory adresses
+- memory adress is a location in memoery where data is stored
+- a memory adress can be accessed with & (adress-of operator)
